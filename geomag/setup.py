@@ -3,13 +3,13 @@ setup(
     name = "geomag",
     packages = ["geomag"],
     #data_files = [('geomag', ('geomag/WMM.COF',))],
-    package_data = {'geomag': ['WMM.COF','WMM2010.COF']},
-    version = "0.9.2015",
+    package_data = {'geomag': ['WMM.COF','WMM2015.COF','WMM2010.COF']},
+    version = "0.9.2020",
     description = "Magnetic variation/declination",
     author = "Christopher Weiss",
     author_email = "cmweiss@gmail.com",
     url = "http://geomag.googlecode.com/",
-    download_url = "//pypi.python.org/packages/source/g/geomag/geomag-0.9.2015.zip",
+    download_url = "//pypi.python.org/packages/source/g/geomag/geomag-0.9.2020.zip",
     keywords = ["magnetic", "variation", "declination"],
     classifiers = [
         "Programming Language :: Python",
@@ -27,6 +27,6 @@ Magnetic variation/declination
 ------------------------------
 
 Calculates magnetic variation/declination for any latitude/longitude/altitude,
-for any date. Uses the NOAA National Geophysical Data Center, epoch 2015 data.
+for any date. Uses the NOAA National Geophysical Data Center, epoch 2020 data.
 """
 )
